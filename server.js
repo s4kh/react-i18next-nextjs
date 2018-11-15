@@ -24,7 +24,7 @@ i18n.on("initialized", () => {
     server.use((req, res, nextHandler) => {
       req.boot = {
         // TODO: get from hostname
-        lang: "en",
+        lang: "fr",
         webId: "nd_1"
       };
       nextHandler();
